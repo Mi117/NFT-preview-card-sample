@@ -1,0 +1,155 @@
+/* GENERAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+body {
+    background-color: #643890;
+}
+
+
+/* UTILITIES */
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+
+/* CONTAINER CARD */
+.container-card {
+    position: relative;
+    max-width: 400px;
+    height: 480px;
+    margin: 0 auto;
+    top: 50px;
+    border-radius: 10px;
+    background-color: #01B392;
+    padding: 10px 5px;
+    box-shadow: 2px 3px #000e00;
+}
+
+.image-card img {
+    position: relative;
+    width: 280px;
+    height: 250px;
+    top: 10px;
+    left: 60px;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    box-shadow: 2px 4px;
+    margin-bottom: 20px;
+}
+
+/* TEXTS */
+h2 {
+    text-align: center;
+    color: #FF9F2F;
+    font-size: 25px;
+}
+
+.description {
+    text-align: justify;
+    margin-bottom: 22px;
+    padding: 0 6px;
+    color: #643890;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.tag {
+    color:#FF9F2F;
+    text-shadow: 0 1px #FF9F2F;
+}
+
+.price {
+    position: relative;
+    display: inline;
+    left: 20px;
+    bottom: 4px;
+    color: #000e00;
+    font-weight: 900;
+    font-size: 21px;
+}
+
+.offer-time {
+    position: relative;
+    display: inline;
+    float: right;
+    right: 20px;
+    bottom: 15px;
+    color: #000e00;
+    font-size: 15px;
+}
+
+.offer-time img {
+    position: relative;
+    top: 3px;
+}
+
+.artist-creation img {
+    display: inline;
+    bottom: 5px;
+}
+
+
+/* CREATOR SECTION */
+.creator {
+    position: relative;
+    bottom: 24px;
+    display: inline;
+    margin-left: 5px;
+}
+
+.artist-creation img {
+    position: relative;
+    display: inline;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+hr.rounded {
+    border-top: 4px solid #bbb;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+/* ATTRIBUTION */
+.attribution {
+    text-align: center;
+    position: fixed;
+    left: 460px;
+    bottom: 10px;
+    color: #a7a9be;
+}
+
+.attribution :nth-child(1) {
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.attribution :nth-child(1):hover {
+    color: crimson;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#user {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: orange;
+}
+
+#user:hover {
+    color: crimson;
+}
